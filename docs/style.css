@@ -1,0 +1,16 @@
+:root{--bg:#0b0b0b;--fg:#fff;--muted:#aaa;--card:#111;--border:#222;}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:var(--fg);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:960px;margin:40px auto;padding:0 16px}
+header{display:flex;gap:24px;align-items:center}
+header img{width:96px;height:96px;border-radius:999px;border:2px solid var(--fg)}
+h1{font-size:36px;margin:0}
+.lead{opacity:.9;margin:8px 0 0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:16px 0}
+h2{margin:0 0 8px;font-size:22px}
+ul{padding-left:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--fg);font-weight:600}
+.btn.ghost{border-color:var(--border);opacity:.9}
+.footer{opacity:.75;margin-top:32px;padding-bottom:40px}
+@media (max-width:640px){header{flex-direction:column;align-items:flex-start}h1{font-size:28px}}
